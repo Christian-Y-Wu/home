@@ -54,8 +54,8 @@ const about = {
   imageLink: require("../editable-stuff/christianwu.jpg"),
   imageSize: 375,
   message:
-    "My name is Christian Wu. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "My name is Christian Wu. I am currently studying BSc. Eng - Software Technology at the Technical University of Denmark and have a part-time job as an Analyst at Netcompany",
+  resume: "https://www.canva.com/design/DAFNK8_eGjE/4Y4yLH2CM-D6G-UDbrJdHw/view?utm_content=DAFNK8_eGjE&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu",
 };
 
 // PROJECTS SECTION
