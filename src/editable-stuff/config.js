@@ -100,24 +100,24 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    // { name: "Python", value: 90 },
-    // { name: "SQL", value: 75 },
-    // { name: "Data Structures", value: 85 },
-    // { name: "C/C++", value: 65 },
-    // { name: "JavaScript", value: 90 },
-    // { name: "React", value: 65 },
-    // { name: "HTML/CSS", value: 55 },
-    // { name: "C#", value: 80 },
+    { name: "Python", value: 90 },
+    { name: "SQL", value: 75 },
+    { name: "Data Structures", value: 85 },
+    { name: "C/C++", value: 65 },
+    { name: "JavaScript", value: 90 },
+    { name: "React", value: 65 },
+    { name: "HTML/CSS", value: 55 },
+    { name: "C#", value: 80 },
   ],
   softSkills: [
-    // { name: "Goal-Oriented", value: 80 },
-    // { name: "Collaboration", value: 90 },
-    // { name: "Positivity", value: 75 },
-    // { name: "Adaptability", value: 85 },
-    // { name: "Problem Solving", value: 75 },
-    // { name: "Empathy", value: 90 },
-    // { name: "Organization", value: 70 },
-    // { name: "Creativity", value: 90 },
+    { name: "Goal-Oriented", value: 80 },
+    { name: "Collaboration", value: 90 },
+    { name: "Positivity", value: 75 },
+    { name: "Adaptability", value: 85 },
+    { name: "Problem Solving", value: 75 },
+    { name: "Empathy", value: 90 },
+    { name: "Organization", value: 70 },
+    { name: "Creativity", value: 90 },
   ],
 };
 
@@ -126,7 +126,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm always looking for new exciting opportunites. If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "christian.y.wu@gmail.com",
 };
 
@@ -135,27 +135,12 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Analyst',// Here Add Company Name
+      role: 'Software Engineer',// Here Add Company Name
       companylogo: require('../assets/img/dell.png'),
       date: 'June 2018 – Present',
     },
     {
-      role: 'Student Worker',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
-    },
-    {
-      role: 'Student Worker',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
-    },
-    {
-      role: 'Student Worker',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
-    },
-    {
-      role: 'Student Worker',
+      role: 'Front-End Developer',
       companylogo: require('../assets/img/boeing.png'),
       date: 'May 2017 – May 2018',
     },
@@ -167,4 +152,4 @@ const experiences = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, leadership, skills, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
